@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    /* outline: 1px solid red; */
+}
+header{
+    width:100%;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.limita-secao{
+    max-width:1024px;
+    margin:0 auto;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+.topo img{
+    width:35px;
+    height:35px;
+}
+.topo p{
+    color:#5d15d1;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.banner {
+    background-image: url(/imagens/bahia.jpg);
+    height:90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:40px;
+}
+.solicitacao{
+    background-color: hsl(263, 82%, 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+.solicitacao h1{
+    color: white;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.solicitacao img{
+    width:20px;
+    height:20px;
+    rotate: 310deg;
+}
+.formulario{
+    background-color: white;
+    height:100%;
+}
+.informe-form{
+    margin: 25px 15px;
+}
