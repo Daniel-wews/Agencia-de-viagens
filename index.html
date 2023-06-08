@@ -25,7 +25,85 @@
                     <img src="/imagens/aviao.png" alt="aviao">
                     <h1>Solicite um orçamento</h1>
                 </div>
-            
+                <div class="informe-form">
+                    <h2>Informe seus dados</h2>
+                    <form method="post"
+                        action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/%22%3E">
+
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="Nome" required placeholder="Nome completo">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" required placeholder="Email para contato">
+
+                        <label for="celular">Celular</label>
+                        <input type="tel" id="celular" name="Celular" required placeholder="(xx) xxxxx-xxxx">
+
+                        <div>
+                            <label for="data-ida">Data da ida</label>
+                            <input type="date" id="data-ida" name="Data-ida">
+
+                            <label for="data-volta">Data de volta</label>
+                            <input type="date" id="data-volta" name="Data-volta">
+                        </div>
+                        <div class="formulario-campo-duplo">
+                            <div>
+                                <label for="Origem">Origem</label>
+                                <select id="Origem" name="Origem" required>
+                                    <option selected value="" disabled>Partindo de</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="GO">Goias</option>
+                                    <option value="MA">Maranhão</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="destino">Destino</label>
+                                <select id="destino" name="destino" required>
+                                    <option selected value="" disabled>Indo para</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="RJ">Rio de janeiro</option>
+                                    <option value="SP">São paulo</option>
+                                    <option value="GO">Goias</option>
+                                    <option value="MA">Maranhão</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Quarto com cama infantil?</h3>
+
+                            <div>
+                                <input type="radio" name="sim" id="sim" value="sim">
+                                <label for="sim">Sim</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="sim" id="nao" value="nao">
+                                <label for="nao">Nao</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Preferencias da hospedagem</h3>
+                            <div>
+                                <input type="checkbox" id="piscina" name="preferencias[]" value="piscina">
+                                <label for="piscina">Piscina</label>
+
+                                <input type="checkbox" id="wi-fi" name="preferencias[]" value="wi-fi">
+                                <label for="wi-fi">Wi-fi</label>
+
+                                <input type="checkbox" id="garagem" name="preferencias[]" value="garagem">
+                                <label for="garagem">Garagem</label>
+
+                                <input type="checkbox" id="suite" name="preferencias[]" value="suite">
+                                <label for="suite">Suite</label>
+                            </div>
+                        </div>
+                        <button type="submit">Solicitar orçamento</button>
+
+                    </form>
+                </div>
 
             </div>
         </section>
