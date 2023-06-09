@@ -108,3 +108,59 @@ header{
     padding:5px;
     margin-bottom: 10px;
 }
+.cama-infantil{
+    max-width: 180px;
+    justify-content: space-between;
+    margin:15px 0;
+}
+.cama-infantil label, .preferencias label{
+    margin-left:5px;
+}
+.cama h3, .hospedagem h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.preferencias{
+    max-width:400px;
+    justify-content: space-between;
+    margin:15px 0;
+}
+form button{
+    background-color: #5d15d1;
+    padding:10px 5px;
+    color:white;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+form button:hover{
+    background-color: #8149db;
+    transition: .8s;
+}
+@media (max-width:1090px){
+    .topo{
+        justify-content: center;
+    }
+}
+@media (max-width:450px){
+    .informe-form h2{
+        text-align: center;
+    }
+    .cama h3, .hospedagem h3 {
+        text-align: center;
+    }
+    .cama-infantil{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    .preferencias{
+        flex-wrap: wrap;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+}
