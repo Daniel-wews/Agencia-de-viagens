@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 header{
     width:100%;
@@ -20,8 +20,8 @@ header{
     align-items: center;
 }
 .topo img{
-    width:35px;
-    height:35px;
+    width:30px;
+    margin:10px;
 }
 .topo p{
     color:#5d15d1;
@@ -31,7 +31,7 @@ header{
 }
 .banner {
     background-image: url(/imagens/bahia.jpg);
-    height:90vh;
+    height:90%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,4 +60,51 @@ header{
 }
 .informe-form{
     margin: 25px 15px;
+}
+.informe-form h2{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0;
+}
+.info label{
+    margin:10px 0;
+    font-weight: 600;
+}
+.info input{
+    padding:5px;
+}
+.info-02{
+    display: flex;
+}
+.limita-secao-02{
+    display: flex;
+    flex-direction: column;
+}
+.ida {
+    width:50%;
+    margin-right: 10px;
+}
+.ida input, .volta input{
+    width:100%;
+    margin-bottom: 10px;
+    padding:5px;
+}
+.ida label, .volta label{
+    margin:10px 0;
+    font-weight: 600;
+}
+.volta{
+    width:50%;
+}
+.formulario-campo-duplo{
+    display: flex;
+}
+.formulario-campo-duplo select{
+    padding:5px;
+    margin-bottom: 10px;
 }
